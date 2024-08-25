@@ -114,7 +114,6 @@ int main()
 	vector<int>arr={1,2,3,4,5};
 	Node* head=create(arr);
 	for(auto i:arr){
-	
 	head=deleteValnode(head,i);
 	print(head);
 	cout<<"\n";
