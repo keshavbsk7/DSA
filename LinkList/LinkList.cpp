@@ -26,6 +26,7 @@ void create(Node* head,int data)
         current = current->next;
     }
     current->next = temp;
+   
 }
 Node* insertOnIndex(Node* head,int data,int k)
 {
